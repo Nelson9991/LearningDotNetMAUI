@@ -82,6 +82,9 @@
         <Image Source="dotnet_bot"
              Aspect="Center"/>
       </Frame>
+
+      <WebView HeightRequest="500"
+               Source="https://www.youtube.com"/>
     </VerticalStackLayout>
   </ScrollView>
 </ContentPage>
