@@ -1,4 +1,4 @@
-﻿namespace ControlsDemo;
+﻿namespace PerfectPay;
 
 public partial class App : Application
 {
@@ -6,6 +6,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new CollectionControlsPage();
+		MainPage = new AppShell();
 	}
 }
